@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Flexbox Containers */
+.flex-end, .flex-start, .flex-center, .flex-space-around, .flex-space-between, .flex-space-evenly, 
+.flex-column, .flex-column-reverse, .flex-row, .flex-row-reverse, 
+.flex-wrap, .flex-nowrap, .flex-wrap-reverse, 
+.align-center, .align-start, .align-end, .align-stretch,.align-baseline{
+    display: flex;
+    background-color: whitesmoke;
+    margin: 20px 0;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+/* Adjustments for Flex Column Layouts */
+.flex-column, .flex-column-reverse {
+    width: 200px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+/* Flexbox Justify Content */
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+/* Flexbox Direction */
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Flexbox Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Flexbox Align Items */
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+.align-baseline {
+    align-items: baseline;
+}
+
+
+
+
+/* Flex Items */
+.flex-end div, .flex-start div, .flex-center div, .flex-space-around div, .flex-space-between div, .flex-space-evenly div, 
+.flex-column div, .flex-column-reverse div, .flex-row div, .flex-row-reverse div, 
+.flex-wrap div, .flex-nowrap div, .flex-wrap-reverse div, 
+.align-center div, .align-start div, .align-end div, .align-stretch div,.align-baseline div {
+    background: #ddd;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: black; /* Ensures text is readable against the background */
+}
